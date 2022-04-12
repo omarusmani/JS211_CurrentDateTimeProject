@@ -15,14 +15,31 @@ const displayDate = () => {
  
 
 // Write a JavaScript program to convert a number to a string.
-
-
+const convertNumberToString =() =>{
+  // console.log(typeof x)
+  x=document.getElementById("numtostring").value;
+  console.log(x)
+  document.getElementById('NumToString').innerHTML= String(x);  
+}
+// console.log(typeof convertNumberToString(123))
 
 // Write a JavaScript program to convert a string to the number.
-
-
+const convertStringToNumber =()=>{
+  str=document.getElementById('stringtonum').value;
+  d
+}
+// console.log(typeof convertStringToNumber("hello"))
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
+const findType =(z) =>{
+  return(typeof z)
+}
+// console.log(findType("t"))
+// console.log(findType(true))
+// console.log(findType(undefined))
+// console.log(findType(null))
+// console.log(findType(54))
+// console.log(findType(NaN))
   // * Boolean
   // * Null
   // * Undefined
@@ -33,18 +50,39 @@ const displayDate = () => {
 
   
 // Write a JavaScript program that adds 2 numbers together.
-
+const addition=(num1,num2)=>{
+    return (num1+num2);
+}
+console.log(addition(34,34))
 
 
 // Write a JavaScript program that runs only when 2 things are true.
+const iff=(bol1,bol2)=>{
+  if(bol1&&bol2){
+    return
+  }
+  else{
 
+  }
+}
 
 
 // Write a JavaScript program that runs when 1 of 2 things are true.
+const or=(bol1,bol2)=>{
+  if(bol1||bol2){
+    return 
+  }
+  else{
 
+  }
+}
 
 
 // Write a JavaScript program that runs when both things are not true.  
+const notTrue=(bol1,bol2)=>{
+  
+}
+
 
 // ***************************
 //         PART TWO
