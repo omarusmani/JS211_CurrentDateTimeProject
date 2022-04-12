@@ -26,7 +26,7 @@ const convertNumberToString =() =>{
 // Write a JavaScript program to convert a string to the number.
 const convertStringToNumber =()=>{
   str=document.getElementById('stringtonum').value;
-  d
+  document.getElementById("StringToNum").innerHTML=Number(str);
 }
 // console.log(typeof convertStringToNumber("hello"))
 
