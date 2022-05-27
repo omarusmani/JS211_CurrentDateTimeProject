@@ -31,8 +31,10 @@ const convertStringToNumber =()=>{
 // console.log(typeof convertStringToNumber("hello"))
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
-const findType =(z) =>{
-  return(typeof z)
+const findType =() =>{
+  let l = document.getElementById("type").value;
+  console.log(typeof l);
+  document.getElementById("Type").innerHTML=l;
 }
 // console.log(findType("t"))
 // console.log(findType(true))
